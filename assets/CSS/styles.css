@@ -11,14 +11,37 @@ section, footer {
     border-radius: 5px;
 }
 
-h1 {
+header {
+    font-family: "Leckerli One", cursive, 'Noto Serif';
+    font-weight: 400;
     color: white;
-    font-size: 6ch;
     text-align: center;
 }
 
-header {
-    max-width: 80ch;
+h1 {
+    font-size: 6ch;
+    margin-bottom: 0px;
+}
+
+header p {
+    font-size: 2ch;
+    margin-top: 0px;
+    transform: rotate(-3deg);
+
+
+    /* Legacy vendor prefixes that you probably don't need... */
+  
+    /* Safari */
+    -webkit-transform: rotate(-3deg);
+  
+    /* Firefox */
+    -moz-transform: rotate(-3deg);
+  
+    /* IE */
+    -ms-transform: rotate(-3deg);
+  
+    /* Opera */
+    -o-transform: rotate(-3deg);
 }
 
 p {
