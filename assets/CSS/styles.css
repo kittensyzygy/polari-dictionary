@@ -20,7 +20,7 @@ header {
     max-width: 80ch;
 }
 
-.glow {
+glow {
     color: #fff;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
